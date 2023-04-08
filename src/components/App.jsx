@@ -1,21 +1,11 @@
 import React from "react";
 import "./App.css";
-import Navigation from "./Navigation.jsx";
-import { Container, Row, Col } from "react-bootstrap";
+import Navigation from "./Navigation/Navigation.jsx";
 import Projcover from "./Projcover.jsx";
 import unfoundcover from "./images/unfoundcover.png";
 import amazoncover from "./images/amazon cover pic.png";
 import venmocover from "./images/venmo cover pic.png";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Unfound from "./Unfound.jsx";
-import Amazon from "./Amazon.jsx";
-import Venmo from "./Venmo.jsx";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import Footer from "./Footer.jsx";
-
-library.add(fab);
+import traintimecover from "./images/traintime_cover.png";
 
 function App() {
   return (
@@ -23,61 +13,84 @@ function App() {
       <section id="Navigation">
         <Navigation />
       </section>
-      <section id="home">
-        <Container>
-          <Row>
-            <Col className="home-col">
-              <h1>Julia Kim</h1> <br />
-              <p>
-                I'm an aspiring UI/UX designer for web and mobile interfaces. I
-                love creative and minimalist designs.
-              </p>
-            </Col>
-            <Col className="home-col">
-              <p>
-                Currently, I'm a UI/UX intern at the Metropolitan Transportation
-                Authority (MTA) for the TrainTime App. I inspect user stories
-                and design solutions to them. I also design the layout of the
-                quarterly employee newsletter and posters for any events hosted
-                by MTA IT.
-              </p>
-            </Col>
-          </Row>
-          <p className="home-footer">scroll to see my projects :)</p>
-        </Container>
-      </section>
+      <div className="home-main">
+        <div className="home-main-top">
+
+        </div>
+        <div className="home-main-content">
+        <div className="home-main-name">
+          <h1><span>Julia Kim</span></h1>
+        </div>  
+        <div className="home-main-header">
+          
+          <p>
+          <span>
+          I'm an detail-oriented UI/UX designer for web and mobile interfaces.
+          </span>
+        </p>
+          
+
+        </div>
+        <div className="home-main-body">
+        <p>
+          <span>
+          Currently, I'm a UI/UX intern at the Metropolitan Transportation
+          Authority (MTA) for the TrainTime App, designing solutions for new
+          features. I also layout the quarterly employee newsletter and posters
+          for any events hosted by MTA IT.
+          </span>
+        </p>
+        </div>
+    
+        
+        </div>
+        <div className="home-footer">
+          <p><span>scroll down to see my projects :)</span></p>
+        </div>
+        
+      </div>
+      
+      <div>
+      
+
+      </div>
+      
       <section id="projects">
+        
+      <Projcover
+          dest="/traintime"
+          img={traintimecover}
+          header="TrainTime App"
+          desc="Designing solutions from user feedback for the MTA TrainTime App."
+          projectName="venmo"
+        ></Projcover>
+
         <Projcover
-          bgColor="#F19968"
           dest="/unfound"
           img={unfoundcover}
           header="Unfound App Redesign"
-          desc="Redesign A startup app I worked for. Redesigning their filter system, feed, and profile page.
-            "
+          desc="A startup app I worked for. Redesigning their filter system, feed, and profile page."
+          projectName="unfound"
         ></Projcover>
 
         <Projcover
-          bgColor="#B3DDAF"
           dest="/amazon"
           img={amazoncover}
           header="Amazon KDP Redirect"
-          desc="Redirect Making the Amazon KDP self-publishing feature more user- friendly.
-          "
+          desc="Making the Amazon KDP self-publishing feature more user friendly."
+          projectName="amazon"
         ></Projcover>
 
         <Projcover
-          bgColor="#3B6698"
           dest="/venmo"
           img={venmocover}
-          header="Venmo - Split the Bill"
+          header="Venmo: Split the Bill"
           desc="A personal project designing a new feature for Venmo."
+          projectName="venmo"
         ></Projcover>
       </section>
-      <section id="footer">
-        <Footer />
-      </section>
     </div>
-  );
+  )
 }
 
 export default App;
