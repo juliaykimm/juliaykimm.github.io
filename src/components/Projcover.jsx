@@ -1,31 +1,24 @@
 import React from "react";
-import "./App.css";
-import { Container, Row, Col } from "react-bootstrap";
+import "./Projcover.css";
 import { Link } from "react-router-dom";
 
 function Projcover(props) {
   return (
-    <div className="proj-icon" style={{ backgroundColor: props.bgColor }}>
-      <Container>
-        <Link className="links" to={props.dest}>
-          <Row>
-            <Col>
-              <img
-                src={props.img}
-                alt="project cover image"
-                className="coverpic"
-              />
-            </Col>
-            <Col>
-              <div className="proj-col">
-                <h4>{props.header}</h4>
-                <p>{props.desc}</p>
-              </div>
-            </Col>
-          </Row>
-        </Link>
-      </Container>
-    </div>
+    <Link className="links" to={props.dest}>
+      <div className="project-tile" id={props.projectName}>
+        <div className="proj-img-wrapper">
+          <img src={props.img} alt="project cover"/>
+        </div>
+        <div className="project-tile-content">
+          <div className="text-header">
+            <h4>{props.header}</h4>
+          </div>
+          <div className="project-text">
+            <p>{props.desc}</p>
+          </div>
+        </div>
+      </div>
+    </Link>
   );
 }
 
