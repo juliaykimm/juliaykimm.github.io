@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8569c9b.css",
-    "main.js": "/static/js/main.22a66dc4.js",
-    "static/media/amazon cover pic.png": "/static/media/amazon cover pic.9c58e013b73967bb1130.png",
-    "static/media/traintime_cover.png": "/static/media/traintime_cover.bf1b72cb5f899ab6b8cc.png",
-    "static/media/julia pic.jpg": "/static/media/julia pic.08c03b39826842bedbb8.jpg",
-    "static/media/unfoundcover.png": "/static/media/unfoundcover.7d083a13e1afb12e9348.png",
-    "static/media/venmo cover pic.png": "/static/media/venmo cover pic.1b1fcc9024e729bfefce.png",
+    "main.css": "/static/css/main.27f425dd.css",
+    "main.js": "/static/js/main.40a64405.js",
+    "static/media/amazon_cover.png": "/static/media/amazon_cover.b2fe19678c727b616968.png",
+    "static/media/julia_photo.jpg": "/static/media/julia_photo.08c03b39826842bedbb8.jpg",
+    "static/media/unfound_cover.png": "/static/media/unfound_cover.ac548ae6538bcd8eb31c.png",
+    "static/media/traintime_cover.png": "/static/media/traintime_cover.32eaade4f785d34c608a.png",
+    "static/media/venmo_cover.png": "/static/media/venmo_cover.1c5408fe539a210fc4d9.png",
     "index.html": "/index.html",
     "static/media/figmamouse16.svg": "/static/media/figmamouse16.a29cebc902e270b731d5.svg",
-    "main.a8569c9b.css.map": "/static/css/main.a8569c9b.css.map",
-    "main.22a66dc4.js.map": "/static/js/main.22a66dc4.js.map"
+    "main.27f425dd.css.map": "/static/css/main.27f425dd.css.map",
+    "main.40a64405.js.map": "/static/js/main.40a64405.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8569c9b.css",
-    "static/js/main.22a66dc4.js"
+    "static/css/main.27f425dd.css",
+    "static/js/main.40a64405.js"
   ]
 }
