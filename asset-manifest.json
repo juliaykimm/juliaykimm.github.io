@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.927fbc2f.css",
-    "main.js": "/static/js/main.5d85ab2e.js",
+    "main.css": "/static/css/main.caf517fa.css",
+    "main.js": "/static/js/main.2a82353d.js",
     "static/media/amazon_cover.png": "/static/media/amazon_cover.b2fe19678c727b616968.png",
-    "static/media/julia_photo.jpg": "/static/media/julia_photo.08c03b39826842bedbb8.jpg",
+    "static/media/about_photo.jpg": "/static/media/about_photo.08c03b39826842bedbb8.jpg",
     "static/media/unfound_cover.png": "/static/media/unfound_cover.ac548ae6538bcd8eb31c.png",
     "static/media/weee_cover.png": "/static/media/weee_cover.c0e307cd16070844f69d.png",
     "static/media/traintime_cover.png": "/static/media/traintime_cover.32eaade4f785d34c608a.png",
     "static/media/venmo_cover.png": "/static/media/venmo_cover.1c5408fe539a210fc4d9.png",
     "index.html": "/index.html",
-    "static/media/figmamouse16.svg": "/static/media/figmamouse16.a29cebc902e270b731d5.svg",
-    "main.927fbc2f.css.map": "/static/css/main.927fbc2f.css.map",
-    "main.5d85ab2e.js.map": "/static/js/main.5d85ab2e.js.map"
+    "main.caf517fa.css.map": "/static/css/main.caf517fa.css.map",
+    "main.2a82353d.js.map": "/static/js/main.2a82353d.js.map"
   },
   "entrypoints": [
-    "static/css/main.927fbc2f.css",
-    "static/js/main.5d85ab2e.js"
+    "static/css/main.caf517fa.css",
+    "static/js/main.2a82353d.js"
   ]
 }
