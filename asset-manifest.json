@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.caf517fa.css",
-    "main.js": "/static/js/main.76fa3755.js",
-    "static/media/amazon_cover.png": "/static/media/amazon_cover.b2fe19678c727b616968.png",
+    "main.css": "/static/css/main.f126e0d4.css",
+    "main.js": "/static/js/main.f6998642.js",
     "static/media/about_photo.jpg": "/static/media/about_photo.08c03b39826842bedbb8.jpg",
-    "static/media/unfound_cover.png": "/static/media/unfound_cover.ac548ae6538bcd8eb31c.png",
-    "static/media/weee_cover.png": "/static/media/weee_cover.c0e307cd16070844f69d.png",
-    "static/media/traintime_cover.png": "/static/media/traintime_cover.32eaade4f785d34c608a.png",
-    "static/media/venmo_cover.png": "/static/media/venmo_cover.1c5408fe539a210fc4d9.png",
+    "static/media/unfound_cover.png": "/static/media/unfound_cover.549071fa5cdd7e2c0548.png",
+    "static/media/amazon_cover.png": "/static/media/amazon_cover.27d1f579da44af0e9079.png",
+    "static/media/weee_cover.png": "/static/media/weee_cover.e767823e31bbbb756088.png",
+    "static/media/intranet_cover.png": "/static/media/intranet_cover.e2411b08c49939b01150.png",
+    "static/media/traintime_cover.png": "/static/media/traintime_cover.e9381cd26d299e16eee4.png",
+    "static/media/loader.gif": "/static/media/loader.bc5ea877503b523a6bae.gif",
     "index.html": "/index.html",
-    "main.caf517fa.css.map": "/static/css/main.caf517fa.css.map",
-    "main.76fa3755.js.map": "/static/js/main.76fa3755.js.map"
+    "main.f126e0d4.css.map": "/static/css/main.f126e0d4.css.map",
+    "main.f6998642.js.map": "/static/js/main.f6998642.js.map"
   },
   "entrypoints": [
-    "static/css/main.caf517fa.css",
-    "static/js/main.76fa3755.js"
+    "static/css/main.f126e0d4.css",
+    "static/js/main.f6998642.js"
   ]
 }
